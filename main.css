@@ -1,0 +1,200 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #ffcce6;
+}
+
+.main {
+  background-color: rgb(250, 250, 250);
+  margin: 0 auto;
+  width: 75%;
+  max-width: 900px;
+  padding: 20px;
+}
+
+#title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-size: 18px;
+}
+
+#name, #email {
+  margin: 15px;
+}
+
+#name-label, #email-label,
+#number-label {
+  margin-left: 30%;
+}
+
+.email-header {
+  margin-right: 6px;
+}
+
+.gender-header {
+  margin-right: 8px;
+}
+
+.gender-buttons {
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.age {
+  margin-left: 37%;
+  margin-top: -30px;
+}
+
+.age-header {
+  margin-top: 10px;
+}
+
+.jobs {
+  margin-left: 20%;
+}
+
+#dropdown {
+  height: 35px;
+  width: 160px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.job-header {
+  margin-left: 15px;
+}
+
+.recommend, .comments {
+  text-align: center;
+}
+
+.recommend-buttons {
+  margin-left: 42%;
+}
+
+.youtube {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.new-course {
+  text-align: center;
+}
+
+.course-buttons {
+  margin-left: 40%;
+}
+
+.new-course-buttons {
+  margin-left: 40%;
+  margin-top:-10px;
+}
+
+#comment {
+  margin-left: 32%;
+}
+
+#submit {
+  background-color: #ffcce6;
+  border-radius: 4px;
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  height: 30px;
+  width: 96px;
+  border: 0px solid;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 833px) {
+  #name-label, #email-label,
+  #number-label {
+    margin-left: 15%;
+  }
+
+  .gender-header {
+    margin-right: 8px;
+  }
+
+  .gender-buttons {
+    margin-left: 15%;
+  }
+
+  .new-course-buttons, .course-buttons {
+    margin-left: 35%;
+  }
+
+  #comment {
+    margin-left: 20%;
+  }
+
+  .age {
+    margin-left: 26%;
+  }
+
+  .jobs {
+    margin-left: 12%;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  #name-label, #email-label,
+  #number-label {
+    margin-left: 5%;
+  }
+
+  .gender-buttons {
+    margin-left: 5%;
+  }
+
+  .age {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .job-header {
+    margin-left: -20px;
+  }
+
+  #dropdown {
+  margin-left: -8%;
+}
+
+  .recommend-buttons {
+    margin-left: 33%;
+  }
+
+  .new-course-buttons, .course-buttons {
+    margin-left: 20%;
+  }
+
+  #comment {
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  #submit {
+    margin-left: 35%;
+  }
+}

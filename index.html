@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1 id="title">Survey Form</h1>
+
+    <div class="main">
+      <p id="description">Please help with this survey for future courses</p>
+
+      <form id="survey-form">
+        <label id="name-label">
+        Name: <input id="name" class="input-field" type="name" placeholder="Enter your name" required>
+        </label>
+        <br>
+        <label id="email-label">
+        <span class="email-header">Email: </span><input id="email" class="input-field" type="email" placeholder="Enter your email" required>
+        </label>
+        <br>
+      <div class="gender-buttons">
+        <label id="gender"><span class="gender-header">Gender: </span><input type="radio" name="gender" checked>Male</label>
+        <label><input type="radio" name="gender" checked>Female</label>
+      </div>
+        <br>
+
+        <div class="age-header">
+          <label id="number-label" for="age">Age: </label>
+        <div class="age">
+          <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Enter your age">
+        <br>
+      </div>
+    </div>
+
+        <br>
+        <div class="jobs">
+        <span class="job-header">Current job status: </span><select name="job" id="dropdown">
+          <option value="job1">Employed full time</option>
+          <option value="job2">Employed part time</option>
+          <option value="job3">Student</option>
+          <option value="job4">Unemployed</option>
+          <option value="job5">Housewife/Househusband</option>
+        </select>
+      </div>
+
+
+        <br>
+
+        <p class="recommend">Would you recommend a friend to try our courses?</p>
+        <div class="recommend-buttons">
+          <input id="one" type="radio" name="items" value="1">
+            <label for="one">Definitely</label><br>
+          <input id="two" type="radio" name="items" value="2">
+            <label for="two">Maybe</label><br>
+          <input id="three" type="radio" name="items" value="3">
+            <label for="three">Unlikely</label>
+        </div>
+
+        <p class="youtube">How happy are you with our YouTube channel?</p>
+        <br>
+      <div class="course-buttons">
+        <label><input id="text" type="radio" name="happy" checked>1</label>
+        <label><input type="radio" name="happy" checked>2</label>
+        <label><input type="radio" name="happy" checked>3</label>
+        <label><input type="radio" name="happy" checked>4</label>
+        <label><input type="radio" name="happy" checked>5</label>
+      </div>
+
+        <br>
+        <p class="new-course">Which courses would you like to see offered?</p>
+        <br>
+      <div class="new-course-buttons">
+        <input type="checkbox" value="attribute" name="newcourse">Full Stack Developer</label>
+        <br>
+        <input type="checkbox" value="attribute" name="newcourse">Responsive Design</label>
+        <br>
+        <input type="checkbox" value="attribute" name="newcourse">Visual Design</label>
+        <br>
+        <input type="checkbox" value="attribute" name="newcourse">Advanced CSS</label>
+        <br>
+        <input type="checkbox" value="attribute" name="newcourse">Advanced JavaScript</label>
+        <br>
+        <input type="checkbox" value="attribute" name="newcourse">React</label>
+      </div>
+
+        <br>
+        <p class="comments">Do you have anything you'd like to tell us?</p>
+        <textarea id="comment" name="message" rows="6" cols="50">Please write your comments here</textarea>
+        <br>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+
+  </body>
+</html>
